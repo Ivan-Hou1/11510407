@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>10407侯宣任</title>
+        <style>/*css註解 display inline block inline-block
+        width: px;
+        height: px;
+        \color
+        background-color
+        顏色的設定
+        1,陰文單字
+        2,rgb(0~255,0~2558,0~255,0~1
+        4:色碼
+        5,hsl(色相 0~360,彩度0~100%,亮度0~100% )
+        6,hsla(色相 0~360,彩度0~100%,亮度0~100%,可見度度0~1)*/
+        p{
+          background-color: rgba(0, 0, 248, 0);
+        }
+        #p1{
+            background-color: aqua;
+        }.c1{
+            color: blue;
+        }
+        #b1{
+            background-color: bisque;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+        }#s1{
+            background-color:  #ffff12
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+        }
+         
+        </style>
+    </head>
+    <boby><p>自我介紹</p>
+    <ul>
+        <li></li>
+        <p id="p1" class="c1">第一個標籤</p>
+        <p>第一個標籤</p>
+        <p class="c1">第二個標籤</p>
+        <div id="b1">0</div>
+        <div id="b1">0</div>
+        <span id="s1">1</span>
+        <span id="s1">1</span>
+    </ul>
+    </boby>
+</html>
