@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>CSS容器設定</title>
+    <style>/*由內而外 content?padding/border/margin
+           除了內容分別可以設定 top right bottom left
+           框線分 width style color
+           常見框線樣式 solid dashed dotted double*/
+        #d1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua black brown blue;
+            border: 1px solid aqua;
+            border-color: aqua black brown blue;
+            border-width: 100px;
+            padding: 10px 50px 30px;
+            box-sizing: content-box;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            /*border-style: groove/dashed/dotted/double;*/
+        }#d2{
+            border: 1px solid black;
+            height: 250px;
+            width: 500px;
+            display: inline-block;
+            border-radius: 50%50%;
+        }
+        #d3{
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            border: 1px;
+        }#d4{
+            border: 10px solid black;
+            height: 100px;
+            width:  100px;
+            
+            border-color: red yellow green blue;
+            border-width: 50px 50 0 0;
+        }#d5{
+            height: 0px;
+            width: 50px;
+            border: 30px solid transparent;
+            border-bottom-color:lightblue
+        }#d6{
+            
+            111
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">676767676767676767676767676767</div>
+    <div id="d2">hiih</div><div id="d3">hiih</div>
+    <div id="d4">hiih</div>
+    <hr>
+     <div id="d5"></div>
+     <div id="d6"></div>
+     
+    <hr>
+</body>
+</html>
