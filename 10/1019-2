@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><head>
+<title>1019變形與轉變語陰影</title>
+<style>
+    div{
+        width: 100px;
+        height: 50px;
+        border: 2px solid black;
+        margin: 50px;
+        display: inline-block;
+    }#d1{
+        transform: rotate(45deg);
+    }#d2{
+        transform: rotate(-45deg);
+    }#d3{
+        transform: scale(0.5,1.2);
+    }
+    #d4{
+        transform: translate(10px,10px);/*位移*/
+    }#d5:hover{
+        transform: rotate(45deg) translate(100px,100px);
+        
+    }#d6{
+        transform: rotate(45deg) translate(100px,100px);
+    }
+    #d7:hover{
+        background-color: brown;
+        width: 2000px;
+    }#d7{
+        background-color: rgb(31, 167, 38);
+        transition: background-color 1s,width 2s;
+        
+    }
+    #d5{
+        transition: transform 0.0001s;
+        
+    }#d8{
+        box-shadow: 10px 10px black;/*位移*/
+    }#d9{
+        box-shadow: 5px 5px 10px black;/*柔邊*/
+    }#d10{
+        box-shadow: 0px 0px 10px 100px red;/*擴大程度*/
+    }#d11{
+        font-size: 100pt;
+        text-shadow: 5px 5px 5px red;
+    }#d12{
+        font-size: 100pt;
+        color: white;
+        text-shadow: 5px 5px 5px red;
+    }
+</style>
+</head>
+<body>
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+        <div id="d4"></div>
+        <div id="d5"></div>
+        <div id="d6"></div>
+        <div id="d7"></div>
+        <hr>
+        <div id="d8"></div>
+        <div id="d9"></div>
+        <div id="d10"></div>
+        <p id="d11">文字</p>
+        <p id="d12">文字</p>
+</body>
+</html>

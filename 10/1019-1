@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><head>
+<title>1019-位子與圖城</title>
+<style>
+    /*position:relative相對於原本座標
+      position:absolute相對於父容器跟body*/
+    #dad{
+        border: 2px solid black;
+        width:300px;
+        height: 300px; 
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }#d1{
+         border: 1px solid black;
+        width:100px;
+        height: 100px;
+        background-color: hsla(0deg, 100%, 50%, 1);
+        position: relative; 
+        z-index: 100; 
+    }#d2{
+         border: 1px solid blue;
+        width:100px;
+        height: 100px;
+        position: relative; 
+        top: 30px;
+        left: 30px;
+        background-color: hsla(200deg, 100%, 50%, 1);
+        z-index: 200;
+    }#d3{
+         border: 1px solid rgb(28, 166, 212);
+        width:100px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: hsla(120deg, 100%, 50%, 0.5);
+        z-index: 199; 
+    }#d4{
+        background-color: hsla(60deg, 100%, 50%, 1);
+        width:100px;
+        height: 94px;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    
+    }
+    #uncle{
+        border: 2px dashed black;
+        width:100px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+</style>
+
+</head>
+<body>
+    <div id="dad">
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+        <div id="d4"></div>
+    </div>
+    <div id="uncle"></div>
+</body>
+</html>
